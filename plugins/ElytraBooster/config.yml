@@ -1,0 +1,27 @@
+# Values that is more than 10.0 are interpreted as 10.0!!
+acceleration: 1.0
+
+# Not in creative mode, whether consume item or not.
+consume: true
+
+# Item ids on https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+# NOT minecraft native id like "minecraft:record_blocks", but bukkit-enums-style "RECORD_3"
+booster: Flint
+
+# Y-derection accelaration is divied by this value
+gravity-coefficient: 4.0
+
+# In common servers like spigot, max value is 10
+max-velocity: 9.0
+# The faster moving, boosters give less acceleration.
+accelaration-inversely-proportional-to-velocity: false
+
+# Max speed per direction
+y-max-velocity: 10.0
+xz-max-velocity: 10.0
+
+# Cooldown
+cooldown: true
+cooldown-tick: 20.0
+# The faster moving, it's take more time to cool down.
+cooldown-proportional-to-velocity: false

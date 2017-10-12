@@ -1,0 +1,263 @@
+#> Below are the default permissions set for plugin 'Train_Carts'.
+#> These permissions are ignored if the permission is set for a group or player.
+#> Use the defaults as a base to keep the permissions file small
+#> Need help with this file? Please visit:
+#> http://dev.bukkit.org/server-mods/bkcommonlib/pages/general/permission-defaults/
+train:
+  command:
+    globalproperties:
+      default: op
+      description: The player can edit the properties of all carts
+    properties:
+      default: true
+      description: The player can edit the properties of carts he owns
+    destroy:
+      default: op
+      description: The player can destroy owned carts through commands
+    destroyall:
+      default: op
+      description: The player can destroy all trains on the server
+    fixbugged:
+      default: op
+      description: The player can destroy all bugged minecarts on the server
+    reroute:
+      default: op
+      description: The player can force path finding to re-calculate
+    reload:
+      default: op
+      description: The player can reload the configuration
+    break:
+      default: true
+      description: The player can set blocks the cart can break from a set list
+    breakblock:
+      admin:
+        default: op
+        description: The player can set blocks the cart can break, any type
+    setpublic:
+      default: true
+      description: The player can make his owned carts open for the public
+    setowners:
+      default: true
+      description: The player can set the owners of his owned carts
+    settags:
+      default: true
+      description: The player can set the tags of his owned carts
+    mobenter:
+      default: true
+      description: The player can set if mobs can enter his owned carts
+    setdestination:
+      default: true
+      description: The player can set destinations for his owned carts
+    playerenter:
+      default: true
+      description: The player can set if players can enter his owned carts
+    playerexit:
+      default: true
+      description: The player can set if players can exit his owned carts
+    pickup:
+      default: true
+      description: The player can set if his owned storage carts pick up items
+    setlinking:
+      default: true
+      description: The player can set if his owned trains can link to other trains
+    keepchunksloaded:
+      default: op
+      description: The player can set if his owned trains keep nearby chunks loaded
+    invincible:
+      default: op
+      description: The player can set if his owned trains are invincible
+    pushing:
+      default: true
+      description: The player can set if his owned trains push away certain entities
+    slowdown:
+      default: true
+      description: The player can set if his owned trains slow down over time
+    setcollide:
+      default: true
+      description: The player can set if his owned trains can collide
+    setspeedlimit:
+      default: true
+      description: The player can set the maximum speed for his trains
+    setpoweredcartrequirement:
+      default: true
+      description: The player can set if a powered minecart is needed for his train
+        to stay alive
+    rename:
+      default: true
+      description: The player can rename his owned trains
+    displayname:
+      default: true
+      description: The player can change the display name of his owned trains
+    manualmove:
+      default: true
+      description: Whether the player can change if trains can be moved by damaging
+        them
+    saveall:
+      default: op
+      description: Whether the player can save all TrainCarts stored information to
+        file
+    message:
+      default: op
+      description: Whether the player can add message shortcuts
+    pathinfo:
+      default: op
+      description: Whether the player can view the route the train is following to
+        reach the destination
+    playertake:
+      default: op
+      description: Whether the player can change if players take Minecarts with them
+        when they leave
+    soundenabled:
+      default: op
+      description: Whether the player can turn Minecart sound on or off
+    teleport:
+      default: op
+      description: Whether the player can teleport to where trains are
+    changeblock:
+      default: op
+      description: Whether the player can alter the type of block displayed in a minecart
+    changetick:
+      default: op
+      description: Whether the player can alter the global update tick rate of TrainCarts
+        (debug!)
+    issue:
+      default: true
+      description: Whether the player can report problems with TrainCarts
+    editor:
+      default: op
+      description: Whether the player can use the editor command to give himself an
+        editor map GUI
+  build:
+    station:
+      default: op
+      description: The player can build train stations
+    spawner:
+      default: op
+      description: The player can build train spawners
+    trigger:
+      default: op
+      description: The player can build train triggers
+    destination:
+      default: op
+      description: The player can build destinations
+    switcher:
+      default: op
+      description: The player can build track switchers
+    destructor:
+      default: op
+      description: The player can build train destructors
+    detector:
+      default: op
+      description: The player can build train detectors
+    ejector:
+      default: op
+      description: The player can build train ejectors
+    property:
+      default: op
+      description: The player can build train property setters
+    collector:
+      default: op
+      description: The player can build systems to let trains collect from storage
+        blocks
+    depositor:
+      default: op
+      description: The player can build systems to fill storage blocks with items
+        from trains
+    elevator:
+      default: op
+      description: The player can build systems to teleport trains vertically
+    teleporter:
+      default: op
+      description: The player can build train teleporters (portals)
+    blocker:
+      default: op
+      description: The player can build train blockers
+    wait:
+      default: op
+      description: The player can build train wait signs
+    crafter:
+      default: op
+      description: The player can build item crafter signs
+    ticket:
+      default: op
+      description: The player can build a sign that will charge money or ejects a
+        player if he can't pay
+    announcer:
+      default: op
+      description: The player can build a sign that sends a message to all the players
+        in a train
+    effect:
+      default: op
+      description: The player can build a sign that can play an effect
+    blockchanger:
+      default: op
+      description: The player can build a sign that alters the block displayed in
+        minecarts
+    jumper:
+      default: op
+      description: The player can build a sign that can cause a train to jump in a
+        certain direction
+    launcher:
+      default: op
+      description: The player can build a sign that can launch trains
+    enter:
+      default: op
+      description: The player can build a sign that can make nearby players/mobs enter
+        a train
+    skipper:
+      default: op
+      description: The player can build a sign that can tell a train or minecart to
+        skip upcoming signs
+  spawner:
+    automatic:
+      default: true
+      description: The player can build spawners which automatically create carts
+    regular:
+      default: true
+      description: The player can build spawners which create regular minecarts
+    powered:
+      default: true
+      description: The player can build spawners which create powered minecarts
+    storage:
+      default: true
+      description: The player can build spawners which create minecarts with chests
+    tnt:
+      default: true
+      description: The player can build spawners which create minecarts with TNT
+    hopper:
+      default: true
+      description: The player can build spawners which create minecarts with hoppers
+    command:
+      default: false
+      description: The player can build spawners which create minecarts with command
+        blocks
+    spawner:
+      default: true
+      description: The player can build spawners which create minecarts with spawners
+  place:
+    minecart:
+      default: true
+      description: The player can place minecarts
+    traincart:
+      default: true
+      description: The player can place TrainCarts minecarts
+  break:
+    self:
+      default: true
+      description: The player can break their own minecarts
+    other:
+      default: true
+      description: The player can break any cart except for invincible ones
+    any:
+      default: op
+      description: The player can break all carts in the game
+  properties:
+    admin:
+      default: op
+      description: Carts placed by this player get the admin properties
+  ticket:
+    manage:
+      default: op
+      description: The player can edit the details of existing tickets or create new
+        tickets
+

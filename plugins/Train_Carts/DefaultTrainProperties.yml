@@ -1,0 +1,112 @@
+default:
+  soundEnabled: true
+  displayName: ''
+  allowPlayerTake: true
+  requirePoweredMinecart: false
+  trainCollision: true
+  collisionDamage: 1.0
+  keepChunksLoaded: false
+  speedLimit: 0.4
+  slowDown: true
+  allowManualMovement: true
+  tickets: []
+  collision: 
+    players: DEFAULT
+    misc: PUSH
+    train: LINK
+  blockTypes: ''
+  blockOffset: unset
+  owners: []
+  ownerPermissions: []
+  tags: []
+  allowPlayerEnter: true
+  allowPlayerExit: true
+  invincible: false
+  isPublic: true
+  pickUp: false
+  exitOffset: 
+    ==: Vector
+    x: 0.0
+    y: 0.0
+    z: 0.0
+  exitYaw: 0.0
+  exitPitch: 0.0
+  blockBreakTypes: []
+  destination: ''
+  enterMessage: ''
+  spawnItemDrops: true
+admin:
+  soundEnabled: true
+  displayName: ''
+  allowPlayerTake: true
+  requirePoweredMinecart: false
+  trainCollision: true
+  collisionDamage: 1.0
+  keepChunksLoaded: false
+  speedLimit: 0.4
+  slowDown: true
+  allowManualMovement: true
+  tickets: []
+  collision: 
+    players: DEFAULT
+    misc: PUSH
+    train: LINK
+  blockTypes: ''
+  blockOffset: unset
+  owners: []
+  ownerPermissions: []
+  tags: []
+  allowPlayerEnter: true
+  allowPlayerExit: true
+  invincible: false
+  isPublic: true
+  pickUp: false
+  exitOffset: 
+    ==: Vector
+    x: 0.0
+    y: 0.0
+    z: 0.0
+  exitYaw: 0.0
+  exitPitch: 0.0
+  blockBreakTypes: []
+  destination: ''
+  enterMessage: ''
+  spawnItemDrops: true
+spawner:
+  soundEnabled: true
+  displayName: ''
+  allowPlayerTake: true
+  requirePoweredMinecart: false
+  trainCollision: true
+  collisionDamage: 1.0
+  keepChunksLoaded: false
+  speedLimit: 0.4
+  slowDown: true
+  allowManualMovement: false
+  tickets: []
+  collision: 
+    players: DEFAULT
+    misc: PUSH
+    train: LINK
+  blockTypes: ''
+  blockOffset: unset
+  owners: []
+  ownerPermissions: []
+  tags: []
+  allowPlayerEnter: true
+  allowPlayerExit: true
+  invincible: false
+  isPublic: true
+  pickUp: false
+  exitOffset: 
+    ==: Vector
+    x: 0.0
+    y: 0.0
+    z: 0.0
+  exitYaw: 0.0
+  exitPitch: 0.0
+  blockBreakTypes: []
+  destination: ''
+  enterMessage: ''
+  spawnItemDrops: true
+
