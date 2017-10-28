@@ -1,0 +1,206 @@
+UsePermissions: true
+UseCatchChance: true
+LooseEggOnFail: true
+UseVaultCost: false
+UseItemCost: false
+UseHealthPercentage: false
+ExplosionEffect: false
+SmokeEffect: true
+NonPlayerCatching: false
+PreventCatchingBabyAnimals: true
+PreventCatchingTamedAnimals: true
+PreventCatchingShearedSheeps: true
+SpawnChickenOnSuccess: false
+SpawnChickenOnFail: true
+VaultTargetBankAccount: ''
+DeleteVillagerInventoryOnCatch: false
+CatchChance:
+  Bat: 50.0
+  Blaze: 50.0
+  CaveSpider: 50.0
+  Chicken: 50.0
+  Cow: 50.0
+  Creeper: 50.0
+  Donkey: 50.0
+  ElderGuardian: 50.0
+  Enderman: 50.0
+  Endermite: 50.0
+  Evoker: 50.0
+  Ghast: 50.0
+  Guardian: 50.0
+  Horse: 50.0
+  Husk: 50.0
+  Llama: 50.0
+  MagmaCube: 50.0
+  Mule: 50.0
+  MushroomCow: 50.0
+  Ocelot: 50.0
+  Parrot: 50.0
+  Pig: 50.0
+  PigZombie: 50.0
+  PolarBear: 50.0
+  Rabbit: 50.0
+  Sheep: 50.0
+  Shulker: 50.0
+  Silverfish: 50.0
+  Skeleton: 50.0
+  SkeletonHorse: 50.0
+  Slime: 50.0
+  Spider: 50.0
+  Squid: 50.0
+  Stray: 50.0
+  Vex: 50.0
+  Villager: 50.0
+  Vindicator: 50.0
+  Witch: 50.0
+  WitherSkeleton: 50.0
+  Wolf: 50.0
+  Zombie: 50.0
+  ZombieHorse: 50.0
+  ZombieVillager: 50.0
+VaultCost:
+  Bat: 0.0
+  Blaze: 0.0
+  CaveSpider: 0.0
+  Chicken: 0.0
+  Cow: 0.0
+  Creeper: 0.0
+  Donkey: 0.0
+  ElderGuardian: 0.0
+  Enderman: 0.0
+  Endermite: 0.0
+  Evoker: 0.0
+  Ghast: 0.0
+  Guardian: 0.0
+  Horse: 0.0
+  Husk: 0.0
+  Llama: 0.0
+  MagmaCube: 0.0
+  Mule: 0.0
+  MushroomCow: 0.0
+  Ocelot: 0.0
+  Parrot: 0.0
+  Pig: 0.0
+  PigZombie: 0.0
+  PolarBear: 0.0
+  Rabbit: 0.0
+  Sheep: 0.0
+  Shulker: 0.0
+  Silverfish: 0.0
+  Skeleton: 0.0
+  SkeletonHorse: 0.0
+  Slime: 0.0
+  Spider: 0.0
+  Squid: 0.0
+  Stray: 0.0
+  Vex: 0.0
+  Villager: 0.0
+  Vindicator: 0.0
+  Witch: 0.0
+  WitherSkeleton: 0.0
+  Wolf: 0.0
+  Zombie: 0.0
+  ZombieHorse: 0.0
+  ZombieVillager: 0.0
+ItemCost:
+  ItemId: 371
+  ItemData: 0
+  Amount:
+    Bat: 0.0
+    Blaze: 0.0
+    CaveSpider: 0.0
+    Chicken: 0.0
+    Cow: 0.0
+    Creeper: 0.0
+    Donkey: 0.0
+    ElderGuardian: 0.0
+    Enderman: 0.0
+    Endermite: 0.0
+    Evoker: 0.0
+    Ghast: 0.0
+    Guardian: 0.0
+    Horse: 0.0
+    Husk: 0.0
+    Llama: 0.0
+    MagmaCube: 0.0
+    Mule: 0.0
+    MushroomCow: 0.0
+    Ocelot: 0.0
+    Parrot: 0.0
+    Pig: 0.0
+    PigZombie: 0.0
+    PolarBear: 0.0
+    Rabbit: 0.0
+    Sheep: 0.0
+    Shulker: 0.0
+    Silverfish: 0.0
+    Skeleton: 0.0
+    SkeletonHorse: 0.0
+    Slime: 0.0
+    Spider: 0.0
+    Squid: 0.0
+    Stray: 0.0
+    Vex: 0.0
+    Villager: 0.0
+    Vindicator: 0.0
+    Witch: 0.0
+    WitherSkeleton: 0.0
+    Wolf: 0.0
+    Zombie: 0.0
+    ZombieHorse: 0.0
+    ZombieVillager: 0.0
+HealthPercentage:
+  Bat: 100.0
+  Blaze: 100.0
+  CaveSpider: 100.0
+  Chicken: 100.0
+  Cow: 100.0
+  Creeper: 100.0
+  Donkey: 100.0
+  ElderGuardian: 100.0
+  Enderman: 100.0
+  Endermite: 100.0
+  Evoker: 100.0
+  Ghast: 100.0
+  Guardian: 100.0
+  Horse: 100.0
+  Husk: 100.0
+  Llama: 100.0
+  MagmaCube: 100.0
+  Mule: 100.0
+  MushroomCow: 100.0
+  Ocelot: 100.0
+  Parrot: 100.0
+  Pig: 100.0
+  PigZombie: 100.0
+  PolarBear: 100.0
+  Rabbit: 100.0
+  Sheep: 100.0
+  Shulker: 100.0
+  Silverfish: 100.0
+  Skeleton: 100.0
+  SkeletonHorse: 100.0
+  Slime: 100.0
+  Spider: 100.0
+  Squid: 100.0
+  Stray: 100.0
+  Vex: 100.0
+  Villager: 100.0
+  Vindicator: 100.0
+  Witch: 100.0
+  WitherSkeleton: 100.0
+  Wolf: 100.0
+  Zombie: 100.0
+  ZombieHorse: 100.0
+  ZombieVillager: 100.0
+Messages:
+  PermissionFail: You do not have permission to catch this mob!
+  VaultFail: It costs %s dollars to catch this mob!
+  VaultSuccess: You paid %s dollars for catching this mob!
+  ItemCostFail: It costs %s gold nugget(s) to catch this mob!
+  ItemCostSuccess: You paid %s gold nugget(s) for catching this mob!
+  CatchChanceFail: You failed to catch this mob!
+  CatchChanceSuccess: ''
+  HealthPercentageFail: The mob has more than %s percent health left and cannot be
+    caught!
+ConfigVersion: 3.1
