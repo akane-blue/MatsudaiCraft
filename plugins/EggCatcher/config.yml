@@ -53,7 +53,7 @@ CatchChance:
   Villager: 50.0
   Vindicator: 50.0
   Witch: 50.0
-  WitherSkeleton: 50.0
+  WitherSkeleton: 0.0
   Wolf: 50.0
   Zombie: 50.0
   ZombieHorse: 50.0
