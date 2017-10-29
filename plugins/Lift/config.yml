@@ -16,8 +16,9 @@ floorBlocks:
 redstone: false
 baseBlockSpeeds:
   IRON_BLOCK: 0.5
+  BEACON: 1.0
   GOLD_BLOCK: 1.5
-  DIAMOND_BLOCK: 5
+  DIAMOND_BLOCK: 3
 STRING_oneFloor: There is only one floor silly.
 STRING_currentFloor: 'Current Floor:'
 STRING_dest: 'Dest:'
