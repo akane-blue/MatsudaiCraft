@@ -1,0 +1,45 @@
+# Enable this if you want the durability to be reduced for each broken block
+useDurabilityPerBlock: false
+
+# These define the blocks that can be mined by the hammer, and which quality of base pickaxe is needed
+# (these are set according to the information on the minecraft wiki)
+Minable:
+- COBBLESTONE: [any]
+- STONE: [any]
+- BRICK: [any]
+- MOSSY_COBBLESTONE: [any]
+- COAL_ORE: [any]
+- SANDSTONE: [any]
+- ENDER_STONE: [any]
+- NETHERRACK: [any]
+- NETHER_BRICK: [any]
+- QUARTZ_ORE: [any]
+- STAINED_CLAY: [any]
+- HARD_CLAY: [any]
+- GLOWSTONE: [any]
+- OBSIDIAN: [DIAMOND_PICKAXE]
+- REDSTONE_ORE: [IRON_PICKAXE, DIAMOND_PICKAXE]
+- GLOWING_REDSTONE_ORE: [IRON_PICKAXE, DIAMOND_PICKAXE]
+- GOLD_ORE: [IRON_PICKAXE, DIAMOND_PICKAXE]
+- DIAMOND_ORE: [IRON_PICKAXE, DIAMOND_PICKAXE]
+- EMERALD_ORE: [IRON_PICKAXE, DIAMOND_PICKAXE]
+- LAPIS_ORE: [STONE_PICKAXE, IRON_PICKAXE, DIAMOND_PICKAXE]
+- IRON_ORE: [STONE_PICKAXE, IRON_PICKAXE, DIAMOND_PICKAXE]
+#- IRON_BLOCK: [STONE_PICKAXE, IRON_PICKAXE, DIAMOND_PICKAXE]
+#- GOLD_BLOCK: [IRON_PICKAXE, DIAMOND_PICKAXE]
+#- DIAMOND_BLOCK: [IRON_PICKAXE, DIAMOND_PICKAXE]
+
+# These define the blocks that can be dug by the excavator
+Diggable:
+ - GRASS
+ - DIRT
+ - SAND
+ - GRAVEL
+ - CLAY
+ - SOUL_SAND
+ - SNOW_BLOW
+ - SNOW
+ - MYCEL
+ - SOIL
+ - GLOWSTONE
+ 
