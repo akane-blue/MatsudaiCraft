@@ -8,7 +8,7 @@
 
 # チャンネルチャット機能を利用可能にするかどうか
 # Japanize機能のみを利用したい場合は、falseにしてください。
-enableChannelChat: true
+enableChannelChat: false
 
 # イベント処理の優先度を設定できます。
 # 他のプラグインとの組み合わせでうまく動かないときに使用してください。
@@ -27,12 +27,12 @@ loggingChat: true
 
 # チャンネルチャットの発言内容を、HawkEyeに記録するかどうか
 # この設定を利用する場合は、HawkEyeのconfig.ymlで、log: セクションの chat の設定を true にしてください。
-loggingChatToHawkEye: true
+loggingChatToHawkEye: false
 
 # チャンネルチャットの発言内容を、Prismに記録するかどうか
 # この設定を利用する場合は、Prismのconfig.ymlで、
 # tracking: セクションの player-chat の設定を true にしてください。
-loggingChatToPrism: true
+loggingChatToPrism: false
 
 # チャンネルチャットの発言内容を、サーバーコンソールに表示するかどうか
 displayChatOnConsole: true
@@ -76,7 +76,7 @@ formatConstraint: ['%username', '%msg']
 # %date     : 日付
 # %time     : 時刻
 # %msg      : 発言内容（Japanize変換された場合は、Japanize結果を含みます。）
-defaultFormat: '&f[%color%ch&f]%prefix%username%suffix&a:&f %msg'
+#defaultFormat: '&f[%color%ch&f]%prefix%username%suffix&a:&f %msg'
 
 # OPの画面に、全チャンネルの発言内容を表示する設定。
 opListenAllChannel: false
@@ -94,7 +94,7 @@ maxChannelNameLength: 20
 # 例えば、mainチャンネルにエイリアスmを設定しておくと、mainチャンネルを発言先にしなくても、
 # m:こんにちは！
 # と発言することで、mainチャンネルに発言を行うことができます。
-enableQuickChannelChat: true
+enableQuickChannelChat: false
 
 # クイックチャンネルチャット機能に使用する記号。
 quickChannelChatSeparator: ':'
@@ -141,7 +141,7 @@ dynmapChannel: ''
 
 # NGワード設定。正規表現が指定可能です。
 # ここに設定されたワードを発言したプレイヤーは、NGワード部分がマスクされます。
-ngword: ['ちん(こ|ぽ|ちん)']
+#ngword: ['ちん(こ|ぽ|ちん)']
 
 # NGワード発言時の動作設定。mask、mute、kick、ban の4つのいずれかが設定可能。
 # mask : NGワードをマスクする
@@ -160,7 +160,7 @@ ngwordAction: mask
 
 # 通常チャット（非チャンネルチャット）の装飾を、LunaChatから行うかどうか。
 # Vault がロードされていない場合は、この設定は無視される（false扱い）。
-enableNormalChatMessageFormat: true
+enableNormalChatMessageFormat: false
 
 # チャット装飾のフォーマット設定。
 # フォーマット設定には、下記のキーワードが使用できます。
@@ -171,11 +171,11 @@ enableNormalChatMessageFormat: true
 # %date     : 日付
 # %time     : 時刻
 # %msg      : 発言内容（Japanize変換された場合は、Japanize結果を含みます。）
-normalChatMessageFormat: '&f%prefix%username%suffix&a:&f %msg'
+#normalChatMessageFormat: '&f%prefix%username%suffix&a:&f %msg'
 
 # 通常チャット（非チャンネルチャット）で、カラーコード（&aや&bなど）を
 # 使用可能にするかどうか。falseに設定すると、カラーコードは変換されません。
-enableNormalChatColorCode: true
+enableNormalChatColorCode: false
 
 
 
