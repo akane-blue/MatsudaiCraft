@@ -2,9 +2,11 @@
 
 ## これはなに
 
-wikiと一部プラグインのconfig公開用。
+一部プラグインのconfig公開用。
 
-> https://github.com/Akane-Blue/MatsudaiCraft/wiki
+**Wikiは以下に移転しました。** 登録できれば編集可能です。
+
+> http://wiki.akane.blue/
 
 ## ライセンス
 
